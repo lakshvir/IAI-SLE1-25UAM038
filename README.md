@@ -1,89 +1,104 @@
-# PEAS Framework in Artificial Intelligence – Modern Autonomous Delivery Drone
+# 💰 Monthly Expense Monitor and Advising AI Agent
 
-## 📌 Overview
+A simple Python-based AI agent that helps users monitor their monthly expenses, analyze spending habits, identify high-expense categories, and receive suggestions to reduce unnecessary spending and save money.
 
-This project presents the **PEAS (Performance Measure, Environment, Actuators, Sensors) Framework** in Artificial Intelligence using a **Modern Autonomous Delivery Drone** as a case study.
+---
 
-The presentation explains how an intelligent agent perceives its environment, processes information, makes decisions, and performs actions to achieve its objectives. fileciteturn0file0L37-L49
+## 📌 Project Overview
 
-## 🤖 Case Study: Autonomous Delivery Drone
+The **Monthly Expense Monitor and Advising AI Agent** is a user-defined Python program designed to analyze a user's monthly income and expenses.
 
-Autonomous delivery drones use **AI, computer vision, and sensor fusion** to transport packages from distribution centers to customers while navigating real-world environments with minimal human intervention. fileciteturn0file0L96-L106
+The user enters their income and expenses in different categories such as:
 
-### PEAS Components
+- 🍔 Food
+- 🚗 Travel
+- 🛍️ Shopping
+- 🎮 Entertainment
+- 📚 Education
+- 💡 Bills
+- 📦 Other
 
-| Component               | Description                                                                                                     |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Performance Measure** | Safe delivery, accuracy, speed, battery efficiency, package integrity, and reliability                          |
-| **Environment**         | Buildings, roads, people, weather, obstacles, airspace, and GPS conditions                                      |
-| **Actuators**           | Propeller motors, flight control system, package release mechanism, landing mechanism, and communication system |
-| **Sensors**             | GPS, cameras, IMU, altimeter, proximity sensors, and battery sensors                                            |
+The agent analyzes the entered data and provides basic personalized recommendations based on spending patterns and answers to a few questions.
 
-The complete PEAS mapping is summarized in the presentation. fileciteturn0file0L218-L224
+---
 
-## 🎯 Performance Measures
+## 🎯 Objectives
 
-The drone's performance is evaluated based on:
+The main objectives of this project are:
 
-- Safe delivery and collision avoidance
-- Accurate GPS-based delivery
-- Minimum delivery time
-- Efficient battery consumption
-- Package safety and integrity
-- Reliable operation under different conditions
+- To monitor monthly income and expenses.
+- To calculate total monthly expenditure.
+- To calculate the money remaining after expenses.
+- To identify the category with the highest expenditure.
+- To understand the user's spending habits.
+- To provide recommendations for reducing unnecessary expenses.
+- To encourage better saving habits.
 
-Overall, good performance means **safe + accurate + fast + energy efficient**. fileciteturn0file0L113-L135
+---
 
-## 🌍 Environment
+## 🧠 How the AI Agent Works
 
-The drone operates in a **dynamic and partially observable environment**. It may encounter:
+The agent follows a simple **rule-based decision-making approach**.
 
-- Buildings, houses, trees, and power lines
-- Vehicles, pedestrians, animals, and other obstacles
-- Other drones and aircraft
-- No-fly zones
-- Changing weather and lighting conditions
-- GPS signal variations fileciteturn0file0L141-L154
+### Step 1: Enter Monthly Income
 
-## ⚙️ Actuators
+The user enters their total monthly income.
 
-The actuators convert the drone's AI decisions into physical actions:
+### Step 2: Enter Expenses
 
-- **Propeller Motors** – control thrust, altitude, and movement
-- **Flight Control System** – manages direction, stability, and orientation
-- **Package Release** – releases the package at the destination
-- **Landing Mechanism** – supports controlled landing
-- **Communication System** – sends status updates and alerts fileciteturn0file0L162-L184
+The user enters expenses for different categories.
 
-## 👁️ Sensors
+### Step 3: Expense Analysis
 
-The drone uses multiple sensors for situational awareness:
+The agent calculates:
 
-- **GPS** – position tracking and navigation
-- **Cameras** – visual perception and obstacle detection
-- **IMU** – orientation, acceleration, and movement
-- **Altimeter** – measures altitude
-- **Proximity Sensors** – detect nearby objects
-- **Battery Sensors** – monitor battery charge and health fileciteturn0file0L191-L211
+- Total expenses
+- Remaining money
+- Percentage of income spent
+- Highest expense category
 
-## 🔄 Intelligent Agent Cycle
+### Step 4: User Questions
 
-The autonomous drone continuously follows the cycle:
+The agent asks questions about spending habits, such as:
 
-**Sense → Process → Act → Deliver**
+- Do you frequently eat outside?
+- Do you buy things that you don't really need?
+- Do you frequently spend money on unnecessary travel?
+- Do you spend a lot on entertainment or subscriptions?
 
-It senses its surroundings, processes the collected information, makes decisions, performs actions, and adapts to changing conditions during flight. fileciteturn0file0L228-L232
+### Step 5: Recommendations
 
-## 📚 References
+Based on the user's expenses and answers, the agent provides suggestions such as:
 
-- Russell & Norvig, *Artificial Intelligence: A Modern Approach*, 4th Edition
-- FAA UAS Guidelines
-- IEEE Robotics & Automation Society fileciteturn0file0L232-L233
+> Reduce unnecessary food expenses.
 
-## 👨‍💻 Author
+> Avoid unnecessary shopping.
 
-**Lakshvir Singh**\
-PRN: **25UAM038**\
-CSE (AI & ML)
+> Review unused subscriptions.
 
-**Course:** Introduction to Artificial Intelligence
+> Try to use cheaper transportation options.
+
+> Set a monthly budget and save a fixed amount.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- Object-Oriented Programming (OOP)
+- Conditional Statements
+- Functions
+- Dictionaries
+- User Input
+- Basic Rule-Based AI
+
+---
+
+## 📂 Project Structure
+
+```text
+Monthly-Expense-Monitor/
+│
+├── monthly_expense_monitor.py
+├── AI_Contribution_Log.md
+└── README.md
